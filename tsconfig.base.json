@@ -1,0 +1,77 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      // @geobase-mono
+      "@geobase-mono/libs": ["libs/src/index.ts"],
+
+      // @geobase-3d
+      "@geobase-3d/services": ["apps/geobase_3d/src/app/services/index.ts"],
+      "@geobase-3d/models": ["apps/geobase_3d/src/app/models/index.ts"],
+      "@geobase-3d/components": ["apps/geobase_3d/src/app/components/index.ts"],
+      "@geobase-3d/enums": ["apps/geobase_3d/src/app/enums/index.ts"],
+      "@geobase-3d/constants": ["apps/geobase_3d/src/app/constants/index.ts"],
+      "@geobase-3d/api": ["apps/geobase_3d/src/app/api/index.ts"],
+      "@geobase-3d/pipes": ["apps/geobase_3d/src/app/pipes/index.ts"],
+      "@geobase-3d/i18n": ["apps/geobase_3d/src/assets/i18n/index.ts"],
+      "@geobase-3d/redux": ["apps/geobase_3d/src/app/redux/index.ts"],
+
+      // @geobase-bim
+      "@geobase-bim/services": ["apps/geobase_bim/src/app/services/index.ts"],
+      "@geobase-bim/models": ["apps/geobase_bim/src/app/models/index.ts"],
+      "@geobase-bim/components": [
+        "apps/geobase_bim/src/app/components/index.ts"
+      ],
+      "@geobase-bim/enums": ["apps/geobase_bim/src/app/enums/index.ts"],
+      "@geobase-bim/constants": ["apps/geobase_bim/src/app/constants/index.ts"],
+      "@geobase-bim/api": ["apps/geobase_bim/src/app/api/index.ts"],
+      "@geobase-bim/pipes": ["apps/geobase_bim/src/app/pipes/index.ts"],
+      "@geobase-bim/i18n": ["apps/geobase_bim/src/assets/i18n/index.ts"],
+      "@geobase-bim/redux": ["apps/geobase_bim/src/app/redux/index.ts"],
+
+      // @geobase-construct
+      "@geobase-construct/services": [
+        "apps/geobase_construct/src/app/services/index.ts"
+      ],
+      "@geobase-construct/models": [
+        "apps/geobase_construct/src/app/models/index.ts"
+      ],
+      "@geobase-construct/components": [
+        "apps/geobase_construct/src/app/components/index.ts"
+      ],
+      "@geobase-construct/enums": [
+        "apps/geobase_construct/src/app/enums/index.ts"
+      ],
+      "@geobase-construct/constants": [
+        "apps/geobase_construct/src/app/constants/index.ts"
+      ],
+      "@geobase-construct/api": ["apps/geobase_construct/src/app/api/index.ts"],
+      "@geobase-construct/pipes": [
+        "apps/geobase_construct/src/app/pipes/index.ts"
+      ],
+      "@geobase-construct/i18n": [
+        "apps/geobase_construct/src/assets/i18n/index.ts"
+      ],
+      "@geobase-construct/redux": [
+        "apps/geobase_construct/src/app/redux/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
